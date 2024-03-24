@@ -1,198 +1,45 @@
-
-*{
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-}
-* {
-    margin: 0;
-    padding: 0;
-    font-family: jost, monospace;
-  }
-  .navbar {
-    width: 100%;
-    height: 60px;
-    background-color: rgb(28, 108, 140);
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    place-items: center;
-  }
-  .navbar a {
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-  }
-  .navbar .active {
-    color: black;
-  }
-  .navbar li {
-    list-style-type: none;
-  
-    display: inline-block;
-    /*background-color: pink*/
-  }
-  .navbar a:hover {
-    color: black;
-  }
-  .navbar .logo {
-    margin-left: 40px;
-    font-size: 30px;
-    font-weight: 600;
-    color: white;@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
-  }
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  
-  
-}
-.about-us{
-  height: 100vh;
+<div class="navbar">
+      <div class="logo">SSTC</div>
+<ul class="list">
+          <li><a href="https://tankadai.github.io/home.s/" class="active">Home</a></li>
+            <li><a href="https://gitachygds.github.io/aboutus.s/">About Us</a></li>
+            <li><a href="https://tankadai.github.io/addmission.s/" >Addmission</a></li>
+            <li><a href="https://gitachygds.github.io/programs.s/" >Acadamic Programs</a></li>
+            <li><a href="a">Students</a></li>
+            <li><a href="https://tankadai.github.io/gallary.s/">Gallery</a></li>
+            <li><a href="https://gitachygds.github.io/notice.s/">Notices</a></li>
+            <li><a href="a">Our Teams</a></li>
+        </ul>
+    </div>
+.navbar {
   width: 100%;
-  padding: 90px 0;
-  background: #ddd;
-  
-  
-}
-.pic{
-  height: auto;
-  width:  450px;
-}
-.about{
-  width: 1130px;
-  max-width: 85%;
-  margin: 0 auto;
+  height: 60px;
+  background-color: rgb(28, 108, 140);
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  text-align: center;
+  place-items: center;
 }
-.text{
-  width: 540px;
-}
-.text h2{
-  font-size: 90px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.text h5{
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-span{
-  color: #4070f4;
-}
-.text p{
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 1px;
-}
-.data{
-  margin-top: 30px;
-}
-.hire{
-  font-size: 18px;
-  background: #4070f4;
-  color: #fff;
+.navbar a {
   text-decoration: none;
-  border: none;
-  padding: 8px 25px;
-  border-radius: 6px;
-  transition: 0.5s;
+  color: white;
+  margin-right: 20px;
 }
-.hire:hover{
-  background: #000;
-  border: 1px solid #4070f4;
+.navbar .active {
+  color: black;
 }
+.navbar li {
+  list-style-type: none;
 
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    background-color:#030617;
-    color: white;
-    width: 100%;
-    margin-top: 20px;
-  }
-  .footero-col{
-    display: flex-start;
-    width: 240px;
-    margin: 22px;
-    
-    align-items: center;
-  }
-    
-  .ofphoto {
-    height: 180px;
-    width: 180px;
-    background-color: white;
-  }
-  .ofphoto img{
-    height: 180px;
-    width: 180px;
-  }
-  .footero-col a, h4 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-div{
-
-    
-    width: 500px;
-    
+  display: inline-block;
+  /background-color: pink/
 }
-body{
-    justify-content: center;
+.navbar a:hover {
+  color: black;
 }
-.mainnn{
-    justify-content: center;
-    padding-left: 300px;
-    padding-top: 50px;
-    padding-right: 300px;
-}
-/* #box1{
-    text-align: center ;
-    height: 500px;
-    width:50px;
-    background-color: rgb(172, 248, 248);
-    color:cadetblue;
-}
-    
- #box2{
-    height: 500px;
-    width: 50px;
-    background-color: rgb(193, 245, 228);
-   color: cadetblue;
-   font-weight: lighter;
-}
-
-#box3{
-    text-align:center;
-    background-color: white;
-    margin-left: 30px;
-} */
-.noticee {
-    width: 100%;
-    height: 40px;
-    background-color:rgb(49, 156, 228);
-    display: flex;
-    text-align: center;
-    place-items: center;
-  }
-  .noticee p:hover{
-    color: white;
-    cursor: pointer;
-  }
-h1{
-    color: black;
-    text-align: left;
-    font-family: jost;
-    font-weight: 600;
-}
-p {
-    color: black;
+.navbar .logo {
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
 }
