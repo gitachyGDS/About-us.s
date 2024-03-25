@@ -31,3 +31,157 @@
   font-weight: 600;
   color: white;
 }
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #ddd;
+  
+  
+}
+.pic{
+  height: auto;
+  width:  450px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:#030617;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .footero-col{
+    display: flex-start;
+    width: 240px;
+    margin: 22px;
+    
+    align-items: center;
+  }
+    
+  .ofphoto {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+  }
+  .ofphoto img{
+    height: 180px;
+    width: 180px;
+  }
+  .footero-col a, h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+div{
+
+    
+    width: 500px;
+    
+}
+body{
+    justify-content: center;
+}
+.mainnn{
+    justify-content: center;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+/* #box1{
+    text-align: center ;
+    height: 500px;
+    width:50px;
+    background-color: rgb(172, 248, 248);
+    color:cadetblue;
+}
+    
+ #box2{
+    height: 500px;
+    width: 50px;
+    background-color: rgb(193, 245, 228);
+   color: cadetblue;
+   font-weight: lighter;
+}
+
+#box3{
+    text-align:center;
+    background-color: white;
+    margin-left: 30px;
+} */
+.noticee {
+    width: 100%;
+    height: 40px;
+    background-color:rgb(49, 156, 228);
+    display: flex;
+    text-align: center;
+    place-items: center;
+  }
+  .noticee p:hover{
+    color: white;
+    cursor: pointer;
+  }
+h1{
+    color: black;
+    text-align: left;
+    font-family: jost;
+    font-weight: 600;
+}
+p {
+    color: black;
+}
